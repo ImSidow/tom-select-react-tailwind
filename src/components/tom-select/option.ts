@@ -17,6 +17,7 @@ export const select2Option = function <T>(props: Select2Props<T>): RecursivePart
     console.log(renderOption)
 
     return {
+        create: props.create ?? false,
         plugins: ['dropdown_input'],
         labelField: _labelField,
         valueField: _valueField,

@@ -17,6 +17,7 @@ type RenderType<T> = {
 }
 
 export type Select2Props<T> = {
+    create?: boolean
     options: T[]
     defaultOption?: string
     valueField?: keyof T

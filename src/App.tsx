@@ -21,6 +21,7 @@ function App() {
             <div className="w-2/6 pt-10">
                 <Select2
                     id="select2"
+                    create={true}
                     options={options}
                     defaultOption="AX"
                     labelField="label"
